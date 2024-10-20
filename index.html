@@ -1,0 +1,143 @@
+
+<html>
+
+	<style>
+	/* Add a black background color to the top navigation */
+	.topnav {
+		background-color: #8a9a5b;
+		overflow: hidden;
+	}
+
+	/* Style the links inside the navigation bar */
+	.topnav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  border-radius: 15%;
+	}
+
+	/* Change the color of links on hover */
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	/* Add a color to the active/current link */
+	.topnav a.active {
+	  background-color: #d1bd9f;
+	  color: black;
+	}
+
+	/* Right-aligned section inside the top navigation */
+	.topnav-right {
+	  float: right;
+	  padding: 0.5% 0.5%;
+	}
+	
+	
+	
+	
+	
+	.card {
+	  /* Add shadows to create the "card" effect */
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  transition: 0.3s;
+	}
+
+	/* On mouse-over, add a deeper shadow */
+	.card:hover {
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+	/* Float four columns side by side */
+	.column {
+	  float: left;
+	  width: 20%;
+	  padding: 10% 2.5%;
+	}
+
+	/* Remove extra left and right margins, due to padding in columns */
+	.row {margin: 0 0px;}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	
+	
+	.container {
+	  position: relative;
+	  /* max-width: 800px; Maximum width */
+	  margin: 0 auto; /* Center it */
+	  background-color: #8a9a5b;
+	}
+
+	.container .content {
+	  position: absolute; /* Position the background text */
+	  font-size: 150%;
+	  top: 20%; /* At the bottom. Use top:0 to append it to the top */
+	  background: rgb(0, 0, 0); /* Fallback color */
+	  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+	  color: #f1f1f1; /* Grey text */
+	  width: 80%; /* Full width */
+	  padding: 20px; /* Some padding */
+	}
+
+	</style>
+    <!--Top navigation-->
+	<div class="topnav">
+	  <div class="topnav-right">
+		<a class="active" href="#home">Home</a>
+		<a href="#catalog">Catalog</a>
+		<a href="#about">About me</a>
+	  </div>
+	</div>
+	
+	<!--Main image -->
+	<div class="container">
+	  <center><img src="C:\Users\razda\OneDrive\Desktop\Design Ideas\website\images\Background.png" alt="Notebook" style="max-width:100%; max-height:75%; height: 80%"></center>
+	  <div class="content">
+		<h1>Nest & Script Creations</h1>
+		<p>Nesting your unique style...</p>
+	  </div>
+	</div>
+	
+	
+	<!-- Cards -->
+	
+	<div class="row">
+		<div class="column">
+	
+			<div class="card">
+			  <img src="C:\Users\razda\OneDrive\Desktop\Design Ideas\website\images\new-arrivals.png" alt="Avatar" style="width:100%">
+			</div>
+		</div>
+		
+		<div class="column">
+	
+			<div class="card">
+			  <img src="C:\Users\razda\OneDrive\Desktop\Design Ideas\website\images\halloweens.png" alt="Avatar" style="width:100%">
+			</div>
+		</div>
+		
+		<div class="column">
+	
+			<div class="card">
+			  <img src="C:\Users\razda\OneDrive\Desktop\Design Ideas\website\images\diwali.png" alt="Avatar" style="width:100%">
+			</div>
+		</div>
+		
+		<div class="column">
+	
+			<div class="card">
+			  <img src="C:\Users\razda\OneDrive\Desktop\Design Ideas\website\images\catalog.png" alt="Avatar" style="width:100%">
+			</div>
+		</div>
+	</div>
+	
+</html>
